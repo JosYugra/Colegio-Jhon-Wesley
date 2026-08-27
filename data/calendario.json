@@ -1,0 +1,294 @@
+{
+    "calendario": [
+        {
+            "id": 1,
+            "fecha": "2026-08-07",
+            "fecha_fin": null,
+            "titulo": "Retiro de primaria",
+            "descripcion": "Retiro de primaria",
+            "nivel": ["P"],
+            "categoria": "evento",
+            "icono": "🏫"
+        },
+        {
+            "id": 2,
+            "fecha": "2026-08-13",
+            "fecha_fin": null,
+            "titulo": "Entrega de libretas II Bimestre",
+            "descripcion": "Entrega de libretas II Bimestre / Reunión de aula / Escuela de Padres Nº 03",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "📋"
+        },
+        {
+            "id": 3,
+            "fecha": "2026-08-14",
+            "fecha_fin": null,
+            "titulo": "Programa Especial — Día de Arequipa",
+            "descripcion": "Programa Especial por día de Arequipa (último bloque) grados impares",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🎊"
+        },
+        {
+            "id": 4,
+            "fecha": "2026-08-27",
+            "fecha_fin": "2026-08-28",
+            "titulo": "Campamento de Vitor",
+            "descripcion": "Retiro de secundaria — Campamento de Vitor",
+            "nivel": ["S"],
+            "categoria": "evento",
+            "icono": "⛺"
+        },
+        {
+            "id": 5,
+            "fecha": "2026-09-01",
+            "fecha_fin": "2026-10-02",
+            "titulo": "Juegos Florales",
+            "descripcion": "Juegos Florales",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🏆"
+        },
+        {
+            "id": 6,
+            "fecha": "2026-09-07",
+            "fecha_fin": null,
+            "titulo": "Ranking de Conocimientos Nº 2",
+            "descripcion": "Ranking de Conocimientos Nº 2 (Desde 5ºP hasta 5ºS)",
+            "nivel": ["P", "S"],
+            "categoria": "evento",
+            "icono": "📝"
+        },
+        {
+            "id": 7,
+            "fecha": "2026-09-07",
+            "fecha_fin": "2026-10-09",
+            "titulo": "Unidad Nº 06",
+            "descripcion": "Unidad Nº 06: Del 07 de setiembre al 09 de octubre (5 semanas)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "📖"
+        },
+        {
+            "id": 8,
+            "fecha": "2026-09-22",
+            "fecha_fin": null,
+            "titulo": "Celebración del día del estudiante",
+            "descripcion": "Celebración del día del estudiante (último bloque)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🎉"
+        },
+        {
+            "id": 9,
+            "fecha": "2026-09-23",
+            "fecha_fin": null,
+            "titulo": "Día libre — Día del estudiante",
+            "descripcion": "Día libre por el día del estudiante",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "🌴"
+        },
+        {
+            "id": 10,
+            "fecha": "2026-09-28",
+            "fecha_fin": "2026-10-07",
+            "titulo": "Evaluaciones III Bimestre",
+            "descripcion": "Evaluaciones III Bimestre",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "✏️"
+        },
+        {
+            "id": 11,
+            "fecha": "2026-10-09",
+            "fecha_fin": null,
+            "titulo": "Culto de Acción de Gracias",
+            "descripcion": "Culto de Acción de Gracias por 33 años de vida institucional (por la mañana)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🙏"
+        },
+        {
+            "id": 12,
+            "fecha": "2026-10-12",
+            "fecha_fin": "2026-10-16",
+            "titulo": "Vacaciones — Semana de gestión",
+            "descripcion": "Periodo de Vacaciones — Estudiantes / Semana de gestión",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "🏖️"
+        },
+        {
+            "id": 13,
+            "fecha": "2026-10-19",
+            "fecha_fin": "2026-12-18",
+            "titulo": "IV Bimestre",
+            "descripcion": "IV BimestRE: Del 19 de octubre al 18 de diciembre (9 semanas)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "📚"
+        },
+        {
+            "id": 14,
+            "fecha": "2026-10-19",
+            "fecha_fin": "2026-11-20",
+            "titulo": "Unidad Nº 07",
+            "descripcion": "Unidad Nº 07: Del 19 de octubre al 20 de noviembre (5 semanas)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "📖"
+        },
+        {
+            "id": 15,
+            "fecha": "2026-11-02",
+            "fecha_fin": null,
+            "titulo": "Ranking de Conocimientos Nº 03",
+            "descripcion": "Ranking de Conocimientos Nº 03 (Desde 6ºP hasta 5ºS)",
+            "nivel": ["P", "S"],
+            "categoria": "evento",
+            "icono": "📝"
+        },
+        {
+            "id": 16,
+            "fecha": "2026-11-05",
+            "fecha_fin": null,
+            "titulo": "Entrega de libretas III Bimestre",
+            "descripcion": "Entrega de libretas III Bimestre / Reunión de aula / Escuela de padres Nº 04",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "📋"
+        },
+        {
+            "id": 17,
+            "fecha": "2026-11-16",
+            "fecha_fin": "2026-11-20",
+            "titulo": "Día de logro",
+            "descripcion": "Día de logro",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🏅"
+        },
+        {
+            "id": 18,
+            "fecha": "2026-11-23",
+            "fecha_fin": "2026-11-18",
+            "titulo": "Unidad Nº 08",
+            "descripcion": "Unidad Nº 08: Del 23 de noviembre al 18 de diciembre (4 semanas)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "📖"
+        },
+        {
+            "id": 19,
+            "fecha": "2026-11-26",
+            "fecha_fin": "2026-11-27",
+            "titulo": "Despedida de estudiantes",
+            "descripcion": "Despedida de estudiantes de 4ºS a 5ºS y de 5ºP a 6ºP",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🎓"
+        },
+        {
+            "id": 20,
+            "fecha": "2026-12-04",
+            "fecha_fin": "2026-12-17",
+            "titulo": "Evaluaciones IV Bimestre",
+            "descripcion": "Evaluaciones IV Bimestre",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "✏️"
+        },
+        {
+            "id": 21,
+            "fecha": "2026-12-04",
+            "fecha_fin": null,
+            "titulo": "Compartir especial Inicial 5 años",
+            "descripcion": "Compartir especial Inicial 5 años",
+            "nivel": ["I"],
+            "categoria": "evento",
+            "icono": "👶"
+        },
+        {
+            "id": 22,
+            "fecha": "2026-12-05",
+            "fecha_fin": null,
+            "titulo": "Proyección social 5ºS",
+            "descripcion": "Proyección social 5ºS",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "🤝"
+        },
+        {
+            "id": 23,
+            "fecha": "2026-12-11",
+            "fecha_fin": null,
+            "titulo": "Compartir especial 6ºP",
+            "descripcion": "Compartir especial 6ºP",
+            "nivel": ["P"],
+            "categoria": "evento",
+            "icono": "🎁"
+        },
+        {
+            "id": 24,
+            "fecha": "2026-12-16",
+            "fecha_fin": null,
+            "titulo": "Intercambio de escoltas y Balonazo 5ºS",
+            "descripcion": "Intercambio de escoltas y Balonazo 5ºS",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "⚽"
+        },
+        {
+            "id": 25,
+            "fecha": "2026-12-17",
+            "fecha_fin": null,
+            "titulo": "Compartir navideño",
+            "descripcion": "Compartir navideño (último bloque)",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🎄"
+        },
+        {
+            "id": 26,
+            "fecha": "2026-12-18",
+            "fecha_fin": null,
+            "titulo": "Graduación 5ºS",
+            "descripcion": "Graduación 5ºS",
+            "nivel": ["S"],
+            "categoria": "evento",
+            "icono": "🎓"
+        },
+        {
+            "id": 27,
+            "fecha": "2026-12-21",
+            "fecha_fin": "2026-12-24",
+            "titulo": "Cierre y entrega de documentos",
+            "descripcion": "Cierre de documentos y Entrega de documentos",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "📂"
+        },
+        {
+            "id": 28,
+            "fecha": "2026-12-28",
+            "fecha_fin": "2026-12-31",
+            "titulo": "Semana de Gestión Nº 08",
+            "descripcion": "Semana de Gestión Nº 08: Coordinación con docentes",
+            "nivel": ["I", "P", "S"],
+            "categoria": "comunidad",
+            "icono": "🗓️"
+        },
+        {
+            "id": 29,
+            "fecha": "2026-12-28",
+            "fecha_fin": null,
+            "titulo": "Clausura del Año Escolar",
+            "descripcion": "Clausura del Año Escolar",
+            "nivel": ["I", "P", "S"],
+            "categoria": "evento",
+            "icono": "🏫"
+        }
+    ]
+}

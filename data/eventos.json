@@ -1,0 +1,71 @@
+{
+    "eventos": [
+        {
+            "id": 1,
+            "titulo": "Matrícula 2026",
+            "fecha": "2026-02-01",
+            "fecha_fin": "2026-03-15",
+            "descripcion": "Abierta la matrícula para el año escolar 2026. Ven a conocernos y asegura el cupo de tu hijo.",
+            "categoria": "admision",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/viterbo-portada-2.jpg",
+            "enlace": "https://wa.me/51950378098",
+            "enlace_texto": "Reservar cupo",
+            "icono": "📚"
+        },
+        {
+            "id": 2,
+            "titulo": "Festival de Talentos",
+            "fecha": "2025-10-15",
+            "descripcion": "Nuestros estudiantes muestran sus habilidades artísticas, musicales y deportivas en un día de celebración.",
+            "categoria": "evento",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/foto-directora-1.jpg",
+            "enlace": "https://www.facebook.com/watch/?v=1806410206930490",
+            "enlace_texto": "Ver en Facebook",
+            "icono": "🎭"
+        },
+        {
+            "id": 3,
+            "titulo": "Día del Estudiante",
+            "fecha": "2025-09-23",
+            "descripcion": "Celebramos a nuestros estudiantes con actividades recreativas, juegos y sorpresas durante todo el día.",
+            "categoria": "evento",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/viterbo-portada-2.jpg",
+            "enlace": "https://www.facebook.com/watch/?v=2322661427972937",
+            "enlace_texto": "Ver en Facebook",
+            "icono": "🎉"
+        },
+        {
+            "id": 4,
+            "titulo": "Kermesse Solidaria",
+            "fecha": "2025-11-20",
+            "descripcion": "Jornada de integración familiar con puestos de comida, rifa y actividades para toda la comunidad.",
+            "categoria": "comunidad",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/Diseno-sin-titulo-1.png",
+            "enlace": null,
+            "enlace_texto": null,
+            "icono": "🏫"
+        },
+        {
+            "id": 5,
+            "titulo": "Ceremonia de Graduación",
+            "fecha": "2025-12-18",
+            "descripcion": "Ceremonia oficial de graduación de los alumnos de sexto de primaria y quinto de secundaria.",
+            "categoria": "evento",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/foto-directora-1.jpg",
+            "enlace": null,
+            "enlace_texto": null,
+            "icono": "🎓"
+        },
+        {
+            "id": 6,
+            "titulo": "Inauguración del Atrio 2026",
+            "fecha": "2026-01-15",
+            "descripcion": "Presentación de la primera edición de la revista institucional del año 2026.",
+            "categoria": "evento",
+            "imagen": "https://jwesley.edu.pe/wp-content/uploads/2025/11/viterbo-portada-2.jpg",
+            "enlace": "pages/revistas.html",
+            "enlace_texto": "Ver revistas",
+            "icono": "📰"
+        }
+    ]
+}

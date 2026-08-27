@@ -1,0 +1,23 @@
+{
+    "name": "Colegio Cristiano John Wesley",
+    "short_name": "CCJW",
+    "description": "Educación integral con formación cristiana en Arequipa, Perú. Admisión 2026 abierta.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#00923f",
+    "lang": "es",
+    "icons": [
+        {
+            "src": "https://jwesley.edu.pe/wp-content/uploads/2025/11/cropped-banner-de-colegio-1-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "https://jwesley.edu.pe/wp-content/uploads/2025/11/banner-de-colegio-1.png",
+            "sizes": "220x87",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+(() => {
+    "use strict";
+
+    // Catálogo local de producción. Al cargarse como script no depende de fetch,
+    // CORS ni de que el servidor tenga configurado el MIME de archivos JSON.
+    window.REVISTAS_CATALOG = Object.freeze([
+        { id: 13, titulo: "El Atrio — Enero 2022", mes: "Enero", anio: 2022, fecha: "2022-01-01", descripcion: "Una edición que reúne las actividades, aprendizajes y momentos que dieron inicio al año 2022.", paginas: "revista_pages/13", total_paginas: 28, pdf_url: "Revista_john_wesley/13. El atrio enero 2022.pdf", portada: "Portada/13-el-atrio-enero-2022.jpg" },
+        { id: 12, titulo: "El Atrio — Diciembre 2021", mes: "Diciembre", anio: 2021, fecha: "2021-12-01", descripcion: "Celebraciones, logros y recuerdos de nuestra comunidad educativa al cerrar el año escolar 2021.", paginas: "revista_pages/12", total_paginas: 28, pdf_url: "Revista_john_wesley/12. El Atrio Diciembre 2021.pdf", portada: "Portada/12-el-atrio-diciembre-2021.jpg" },
+        { id: 11, titulo: "El Atrio — Noviembre 2021", mes: "Noviembre", anio: 2021, fecha: "2021-11-01", descripcion: "Historias y experiencias destacadas de estudiantes, docentes y familias durante noviembre.", paginas: "revista_pages/11", total_paginas: 24, pdf_url: "Revista_john_wesley/11. El atrio noviembre.pdf", portada: "Portada/11-el-atrio-noviembre-2021.jpg" },
+        { id: 10, titulo: "El Atrio — Octubre 2021", mes: "Octubre", anio: 2021, fecha: "2021-10-01", descripcion: "Una mirada a los proyectos, valores y actividades que marcaron el mes de octubre.", paginas: "revista_pages/10", total_paginas: 33, pdf_url: "Revista_john_wesley/10. El Atrio Octubre 2021.pdf", portada: "Portada/10-el-atrio-octubre-2021.jpg" },
+        { id: 9, titulo: "El Atrio — Septiembre 2021", mes: "Septiembre", anio: 2021, fecha: "2021-09-01", descripcion: "La vida escolar y los principales acontecimientos de nuestra institución durante septiembre.", paginas: "revista_pages/9", total_paginas: 34, pdf_url: "Revista_john_wesley/09. El atrio Septiembre 2021.pdf", portada: "Portada/09-el-atrio-septiembre-2021.jpg" },
+        { id: 8, titulo: "El Atrio — Agosto 2021", mes: "Agosto", anio: 2021, fecha: "2021-08-01", descripcion: "Aprendizajes, creatividad y comunidad reunidos en la edición correspondiente a agosto.", paginas: "revista_pages/8", total_paginas: 30, pdf_url: "Revista_john_wesley/08. El Atrio agosto 2021.pdf", portada: "Portada/08-el-atrio-agosto-2021.jpg" },
+        { id: 7, titulo: "El Atrio — Julio 2021", mes: "Julio", anio: 2021, fecha: "2021-07-01", descripcion: "Una edición especial con los momentos más representativos y celebraciones del mes patrio.", paginas: "revista_pages/7", total_paginas: 32, pdf_url: "Revista_john_wesley/07. El Atrio Julio 2021.pdf", portada: "Portada/07-el-atrio-julio-2021.jpg" },
+        { id: 6, titulo: "El Atrio — Junio 2021", mes: "Junio", anio: 2021, fecha: "2021-06-01", descripcion: "Proyectos académicos, actividades formativas y noticias de nuestra comunidad en junio.", paginas: "revista_pages/6", total_paginas: 59, pdf_url: "Revista_john_wesley/06. El Atrio-junio 2021.pdf", portada: "Portada/06-el-atrio-junio-2021.jpg" },
+        { id: 5, titulo: "El Atrio — Mayo 2021", mes: "Mayo", anio: 2021, fecha: "2021-05-01", descripcion: "Recuerdos y acontecimientos de la comunidad John Wesley reunidos en la edición de mayo.", paginas: "revista_pages/5", total_paginas: 48, pdf_url: "Revista_john_wesley/05. El Atrio Mayo 2021.pdf", portada: "Portada/05-el-atrio-mayo-2021.jpg" }
+    ].map(Object.freeze));
+})();

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Revistas — Colegio Cristiano John Wesley</title>
+    <meta
+        name="description"
+        content="Revistas del Colegio Cristiano John Wesley: El Atrio, nuestra revista institucional con ediciones mensuales."
+    >
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jwesley.edu.pe/pages/revistas.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Revistas — Colegio Cristiano John Wesley">
+    <meta property="og:description" content="El Atrio: nuestra revista institucional con ediciones mensuales de la comunidad educativa John Wesley.">
+    <meta property="og:image" content="https://jwesley.edu.pe/wp-content/uploads/2025/11/Diseno-sin-titulo-1.png">
+    <meta property="og:url" content="https://jwesley.edu.pe/pages/revistas.html">
+    <meta property="og:locale" content="es_PE">
+    <meta property="og:site_name" content="Colegio Cristiano John Wesley">
+
+    <!-- Favicon -->
+    <link
+        rel="icon"
+        href="https://jwesley.edu.pe/wp-content/uploads/2025/11/cropped-banner-de-colegio-1-32x32.png"
+        sizes="32x32"
+    >
+
+    <!-- Preconnect / DNS-prefetch -->
+    <link rel="preconnect" href="https://jwesley.edu.pe">
+    <link rel="preconnect" href="https://unpkg.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdn.simpleicons.org">
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/video-player.css">
+</head>
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+<header class="site-header">
+    <div class="wrap header-inner">
+        <a
+            class="brand"
+            href="../index.html#inicio"
+            aria-label="Colegio Cristiano John Wesley — inicio"
+        >
+            <img
+                src="https://jwesley.edu.pe/wp-content/uploads/2025/11/banner-de-colegio-1.png"
+                alt="Colegio Cristiano John Wesley"
+                width="220"
+                height="87"
+                fetchpriority="high"
+            >
+        </a>
+
+        <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="siteNav"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+            <span class="sr-only">Abrir menú</span>
+        </button>
+
+        <nav
+            id="siteNav"
+            class="site-nav"
+            aria-label="Navegación principal"
+        >
+            <ul>
+                <li><a href="../index.html#inicio">Inicio</a></li>
+                <li><a href="../index.html#nosotros">Nosotros</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="revistas.html" class="active">Revistas</a></li>
+                <li><a href="../index.html#ubicacion">Ubicación</a></li>
+                <li><a href="../index.html#contacto">Contacto</a></li>
+                <li>
+                    <a class="btn btn-small" href="../index.html#contacto">
+                        Admisión 2026
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main id="contenido">
+
+    <!-- HERO REVISTAS -->
+    <section class="hero-revistas">
+        <div class="hero-revistas-overlay"></div>
+        <div class="wrap hero-revistas-content">
+            <p class="eyebrow">Publicación Institucional</p>
+            <h1>El Atrio</h1>
+            <p class="hero-revistas-lead">
+                Nuestra revista mensual que recoge los momentos, logros y la vida
+                de la comunidad del Colegio Cristiano John Wesley.
+            </p>
+            <a class="btn" href="#revistas-lista">
+                Ver ediciones
+            </a>
+        </div>
+    </section>
+
+    <!-- VIDEO DESTACADO -->
+    <section class="featured-video">
+        <div class="wrap">
+            <h2>Presentación de El Atrio</h2>
+            <p class="featured-video-lead">
+                Mira cómo nace cada edición de nuestra revista
+            </p>
+            <div
+                class="vp-container"
+                data-src="../video_inicio/JHON%20WESLEY%20PUBLICIDAD-1.mp4"
+                data-poster="https://jwesley.edu.pe/wp-content/uploads/2025/11/viterbo-portada-2.jpg"
+                data-title="Presentación de El Atrio — Colegio John Wesley"
+            ></div>
+        </div>
+    </section>
+
+    <!-- LISTA DE REVISTAS -->
+    <section id="revistas-lista" class="revistas-section">
+        <div class="wrap">
+
+            <h2>Todas las Ediciones</h2>
+
+            <p class="revistas-section-lead">
+                Haz clic en "Leer revista" para abrir la edición en nuestro
+                lector interactivo.
+            </p>
+
+            <div class="revistas-grid" id="revistasGrid" hidden>
+                <!-- Se llena con JS -->
+            </div>
+
+            <div class="revistas-loading" id="revistasLoading" role="status">
+                <div class="spinner"></div>
+                <p>Cargando revistas...</p>
+            </div>
+
+            <div class="revistas-empty" id="revistasEmpty" hidden>
+                <p>Actualmente no existen revistas disponibles.</p>
+            </div>
+
+            <div class="revistas-empty revistas-error" id="revistasError" hidden role="alert">
+                <p>No pudimos cargar las revistas.</p>
+                <button class="btn" id="revistasRetry" type="button">Reintentar</button>
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <div class="wrap footer-grid">
+        <div class="footer-brand">
+            <img
+                src="https://jwesley.edu.pe/wp-content/uploads/2025/11/Diseno-sin-titulo-1.png"
+                alt="Colegio Cristiano John Wesley"
+                width="280"
+                height="111"
+                loading="lazy"
+                decoding="async"
+            >
+        </div>
+        <div class="footer-contact">
+            <h3>Contacto</h3>
+            <ul>
+                <li><a href="https://wa.me/51950378098">+51 950 378 098</a></li>
+                <li><a href="mailto:colegiocristianojohnwesley@gmail.com">colegiocristianojohnwesley@gmail.com</a></li>
+                <li><a href="../index.html#ubicacion">La Merced 411, Cercado — Arequipa</a></li>
+            </ul>
+        </div>
+        <div class="footer-social">
+            <h3>Síguenos</h3>
+            <ul class="social-list">
+                <li>
+                    <a href="https://www.facebook.com/profile.php?id=100063775816745" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <img src="https://jwesley.edu.pe/wp-content/uploads/2025/11/facebook-1.png" alt="Facebook" width="36" height="36" loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/iepjohnwesley" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <img src="https://cdn.simpleicons.org/instagram/ffffff" alt="Instagram" width="36" height="36" loading="lazy">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://youtube.com/@iepjohnwesleyaqp?si=HUk-qHooX8QWtR9e" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <img src="https://cdn.simpleicons.org/youtube/ffffff" alt="YouTube" width="36" height="36" loading="lazy">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <p class="footer-bottom">
+        &copy; <span id="year"></span> Colegio Cristiano John Wesley. Todos los derechos reservados.
+    </p>
+</footer>
+
+<script src="../js/revistas-catalog.js?v=20260825-3" defer></script>
+<script src="../js/revistas-data.js?v=20260825-3" defer></script>
+<script src="../js/revistas.js?v=20260825-3" defer></script>
+<script src="../js/video-player.js" defer></script>
+<script src="../js/main.js" defer></script>
+
+<!-- Service Worker -->
+<script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker.register("../sw.js").catch(() => {});
+        });
+    }
+</script>
+
+</body>
+</html>
